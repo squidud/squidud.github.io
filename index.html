@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Nut Software Suite</title>
+<!--mstheme--><link rel="stylesheet" href="blit1011.css">
+<meta name="Microsoft Theme" content="blitz 1011">
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button2.jpg',/*url*/'button3.jpg')">
+
+<h1 align="center">
+<img border="0" src="../../Desktop/extracripsy1.gif" width="84" height="90"><font face="Wide Latin" style="font-size: 50pt" color="#FFFFFF">Nut Software Suite</font><img border="0" src="../../Desktop/extracripsy1.gif" width="84" height="90"></h1>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><font face="W95FA" color="#FFFFFF">Welcome to the official internet page for 
+the Nut Software Suite of applications. Here you can find many useful tools and 
+applications</font></p>
+<p align="center"><font face="W95FA" color="#FFFFFF">for use on YOUR personal computer running 
+Microsoft Windows software, with Linus Torvalds' new software, Linux.</font></p>
+<p align="center"><font face="W95FA" color="#FFFFFF">Our software is built on the modern NT 
+versions of the Windows software, so a top-of-the-line personal computer is 
+required!</font></p>
+<p align="center">&nbsp;</p>
+<p align="center"><b><font face="W95FA" color="#FFFFFF" size="5">But... wait who 
+is Nut Software?</font></b></p>
+<p align="center"><font face="W95FA" color="#FFFFFF">I don't remember. </font></p>
+<p align="center">&nbsp;</p>
+<p align="center"><b><font face="W95FA" size="5" color="#FFFFFF">Does 'nut' 
+stand for anything?</font></b></p>
+<p align="center"><font face="W95FA" color="#FFFFFF">No.</font></p>
+<p align="center">&nbsp;</p>
+<p align="center"><u><b><font face="W95FA" size="6" color="#FFFFFF">Nut Software 
+Downloads:</font></b></u></p>
+<p align="center"><a href="WebMDeezNuts.exe">
+<img border="0" id="img1" src="button1.jpg" height="20" width="100" alt="WebMDeez" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2.jpg')" fp-style="fp-btn: Brick Column 9" fp-title="WebMDeez"></a></p>
+
+</body>
+
+</html>
